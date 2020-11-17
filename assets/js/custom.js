@@ -225,21 +225,6 @@
                 },
             }
         });
-
-
-        /*** =====================================
-         * Video Promotion
-         * =====================================***/
-        $("#videolink").magnificPopup({
-            type: 'inline',
-            midClick: true
-        });
-        $("#videolink2").magnificPopup({
-            type: 'inline',
-            midClick: true
-        });
-
-
     });
 
 })(jQuery);
